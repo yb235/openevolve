@@ -258,7 +258,7 @@ evaluator.evaluate(program_path) → {"combined_score": 0.78, "execution_time": 
 ```
 Stage 1: evaluate_stage1(path) → {"score": 0.6}     # Quick syntax/sanity check
     ↓ (score ≥ 0.5? Continue)
-Stage 2: evaluate_stage2(path) → {"score": 0.7}     # Basic correctness tests
+Stage 2: evaluate_stage2(path) → {"score": 0.8}     # Basic correctness tests
     ↓ (score ≥ 0.75? Continue)
 Stage 3: evaluate_stage3(path) → {"score": 0.85}    # Full benchmark
     ↓
